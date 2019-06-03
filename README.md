@@ -5,7 +5,7 @@ MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commo
 - It can be downloaded from: https://www.kaggle.com/c/digit-recognizer/data
 - For more information on MNIST dataset, visit: https://en.wikipedia.org/wiki/MNIST_database
 # Interpretation Of Eigen Values And Eigen Vectors
-Any two eigen vectors, say $V_i$ and V_{j}, of a covariance matrix S_dxd are perpendicular to each other.
+Any two eigen vectors, say V<sub>i</sub> and V_{j}, of a covariance matrix S_dxd are perpendicular to each other.
 
 Eigen vectors tell the direction of the variance. V_{1} is the direction where the variance is largest, V_{2} the second largest, so on.
 
