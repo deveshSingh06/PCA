@@ -8,7 +8,7 @@ MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commo
 Let X<sub>nxd</sub> be the given matrix. To reduce the dimentionality of X<sub>nxd</sub>, we apply the following steps:
 1. Column standardise X<sub>nxd</sub>.
 2. Find the covariance matrix of X<sub>nxd</sub> as:
- ###                              S<sub>dxd</sub> = X<sup>T</sup>X
+                             <b>S<sub>dxd</sub> = X<sup>T</sup>X</b>
 3. Find the eigen values and eigen vectors of the covariance matrix S<sub>dxd</sub>
 4. Select the principal component.
 
@@ -19,10 +19,10 @@ Let X<sub>nxd</sub> be the given matrix. To reduce the dimentionality of X<sub>n
 
 - Eigen values tell how is the data spread, is it spread only in one axis or amongst many axes. 
 
-- Example 1: If &#955;<sub>1</sub> = 3 and \lambda<sub>2</sub> = 0, it means the data is spread only in one dimension.
-- Example 2: If \lambda<sub>1</sub> = 3 and Lambda<sub>2</sub> = 1, it means the data is spread in two dimensions and it is spread more in the direction of V<sub>1</sub> than V<sub>2</sub>.
+- Example 1: If &#955;<sub>1</sub> = 3 and &#955;<sub>2</sub> = 0, it means the data is spread only in one dimension.
+- Example 2: If &#955;<sub>1</sub> = 3 and &#955;<sub>2</sub> = 1, it means the data is spread in two dimensions and it is spread more in the direction of V<sub>1</sub> than V<sub>2</sub>.
 
-- (Lambda<sub>i</sub>/Summation of Lambda<sub>i</sub> over i=1 to d) tells what %age of variance is explained in the direction  of V<sub>i</sub> when the data is converted from d-dimensions to one dimension(in the direction of V<sub>i</sub> only).
+- (&#955;<sub>i</sub>/Summation of &#955;<sub>i</sub> over i=1 to d) tells what %age of variance is explained in the direction  of V<sub>i</sub> when the data is converted from d-dimensions to one dimension(in the direction of V<sub>i</sub> only).
 
-- Example 1: If Lambda<sub>1</sub> = 3 and Lambda<sub>2</sub> = 0. Since (Lambda<sub>1</sub>/Lambda<sub>1</sub> + Lambda<sub>2</sub>) = 1.  - It means 100% of variance is explained in the direction of V<sub>1</sub> when the data is converted from 2-d to 1-d(in the direction of V<sub>1</sub>)
-- Example 2: If Lambda<sub>1</sub> = 3 and Lambda<sub>2</sub> = 1. Since (Lambda<sub>1</sub>/Lambda<sub>1</sub> + Lambda<sub>2</sub>) = 0.75. It means only 75% of variance is explained in the direction of V<sub>1</sub> when the data is converted from 2-d to 1-d(in the direction of V<sub>1</sub>)
+- Example 1: If &#955;<sub>1</sub> = 3 and &#955;<sub>2</sub> = 0. Since (&#955;<sub>1</sub>/&#955;<sub>1</sub> + &#955;<sub>2</sub>) = 1.  - It means 100% of variance is explained in the direction of V<sub>1</sub> when the data is converted from 2-d to 1-d(in the direction of V<sub>1</sub>)
+- Example 2: If &#955;<sub>1</sub> = 3 and &#955;<sub>2</sub> = 1. Since (&#955;<sub>1</sub>/&#955;<sub>1</sub> + &#955;<sub>2</sub>) = 0.75. It means only 75% of variance is explained in the direction of V<sub>1</sub> when the data is converted from 2-d to 1-d(in the direction of V<sub>1</sub>)
