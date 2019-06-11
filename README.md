@@ -19,7 +19,7 @@ Let X<sub>nxd</sub> be the given matrix. To reduce the dimentionality of X<sub>n
 
 - Eigen values tell how is the data spread, is it spread only in one axis or amongst many axes. 
 
-- Example 1: If \Lambda<sub>1</sub> = 3 and \lambda<sub>2</sub> = 0, it means the data is spread only in one dimension.
+- Example 1: If &#955;<sub>1</sub> = 3 and \lambda<sub>2</sub> = 0, it means the data is spread only in one dimension.
 - Example 2: If \lambda<sub>1</sub> = 3 and Lambda<sub>2</sub> = 1, it means the data is spread in two dimensions and it is spread more in the direction of V<sub>1</sub> than V<sub>2</sub>.
 
 - (Lambda<sub>i</sub>/Summation of Lambda<sub>i</sub> over i=1 to d) tells what %age of variance is explained in the direction  of V<sub>i</sub> when the data is converted from d-dimensions to one dimension(in the direction of V<sub>i</sub> only).
