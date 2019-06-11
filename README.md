@@ -4,6 +4,14 @@ Using PCA I've tried to reduce the dimensions of the MNIST dataset. I've tried t
 MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commonly used for training various image processing systems.
 - It can be downloaded from: https://www.kaggle.com/c/digit-recognizer/data
 - For more information on MNIST dataset, visit: https://en.wikipedia.org/wiki/MNIST_database
+# Steps involved in PCA
+Let X<sub>nxd</sub> be the given matrix. To reduce the dimentionality of X<sub>nxd</sub>, we apply the following steps:
+1. Column standardise X<sub>nxd</sub>.
+2. Find the covariance matrix of X<sub>nxd</sub> as:
+ ###                              S<sub>dxd</sub> = X<sup>T</sup>X
+3. Find the eigen values and eigen vectors of the covariance matrix S<sub>dxd</sub>
+4. Select the principal component.
+
 ## Interpretation Of Eigen Values And Eigen Vectors
 - Any two eigen vectors, say V<sub>i</sub> and V<sub>j</sub>, of a covariance matrix S<sub>dxd</sub> are perpendicular to each other.
 
@@ -11,8 +19,8 @@ MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commo
 
 - Eigen values tell how is the data spread, is it spread only in one axis or amongst many axes. 
 
-- Example 1: If Lambda<sub>1</sub> = 3 and Lambda<sub>2</sub> = 0, it means the data is spread only in one dimension.
-- Example 2: If Lambda<sub>1</sub> = 3 and Lambda<sub>2</sub> = 1, it means the data is spread in two dimensions and it is spread more in the direction of V<sub>1</sub> than V<sub>2</sub>.
+- Example 1: If \lambda<sub>1</sub> = 3 and \lambda<sub>2</sub> = 0, it means the data is spread only in one dimension.
+- Example 2: If \lambda<sub>1</sub> = 3 and Lambda<sub>2</sub> = 1, it means the data is spread in two dimensions and it is spread more in the direction of V<sub>1</sub> than V<sub>2</sub>.
 
 - (Lambda<sub>i</sub>/Summation of Lambda<sub>i</sub> over i=1 to d) tells what %age of variance is explained in the direction  of V<sub>i</sub> when the data is converted from d-dimensions to one dimension(in the direction of V<sub>i</sub> only).
 
