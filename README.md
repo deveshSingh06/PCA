@@ -23,7 +23,7 @@ Let X<sub>nxd</sub> be the given matrix. To reduce the dimentionality of X<sub>n
 
 - The formula
 
-   ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Clambda_i%7D%7B%5Csum%5Climits_%7Bi%3D1%7D%5E%7Bd%7D%5Clambda_i%7D)
+   ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Clambda_i%7D%7B%5Csum%5Climits_%7Bi%3D1%7D%5E%7Bd%7D%5Clambda_i%7D)x100
 
 tells what percentage of variance is explained in the direction  of V<sub>i</sub> when the data is converted from d-dimensions to one dimension(in the direction of V<sub>i</sub> only).
 
