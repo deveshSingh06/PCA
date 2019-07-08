@@ -1,5 +1,5 @@
 # Principal-Component-Analysis-PCA-on-MNIST-dataset
-Using PCA I've tried to reduce the dimensions of the MNIST dataset. I've tried to visualize the MNIST dataset in 2-d by reducing the dimensionality of the dataset from 784-d to 2-d.
+Using PCA, the dimensions of the MNIST dataset have been reduced. The MNIST dataset has been visualized in 2-d by reducing its dimensionality from 784-d to 2-d.
 # About MNIST
 MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commonly used for training various image processing systems.
 - It can be downloaded from: https://www.kaggle.com/c/digit-recognizer/data
