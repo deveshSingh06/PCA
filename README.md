@@ -12,12 +12,9 @@ Let X<sub>nxd</sub> be the given matrix. To reduce the dimentionality of X<sub>n
 4. Select the principal component.
 
 ## Interpretation Of Eigen Values And Eigen Vectors
-- Any two eigen vectors, say V<sub>i</sub> and V<sub>j</sub>, of a covariance matrix S<sub>dxd</sub> are perpendicular to each other.
-
 - Eigen vectors tell the direction of the variance. V<sub>1</sub> is the direction where the variance is largest, V<sub>2</sub> the second largest, so on.
-
-- Eigen values tell how is the data spread, is it spread only in one axis or amongst many axes. 
-
+- Eigen values tell how is the data spread, is it spread only in one axis or amongst many axes.
+- Any two eigen vectors, say V<sub>i</sub> and V<sub>j</sub>, of a covariance matrix S<sub>dxd</sub> are perpendicular to each other.
 - Example 1: If &#955;<sub>1</sub> = 3 and &#955;<sub>2</sub> = 0, it means the data is spread only in one dimension.
 - Example 2: If &#955;<sub>1</sub> = 3 and &#955;<sub>2</sub> = 1, it means the data is spread in two dimensions and it is spread more in the direction of V<sub>1</sub> than V<sub>2</sub>.
 
