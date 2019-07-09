@@ -11,6 +11,8 @@ Let X<sub>nxd</sub> be the given matrix. To reduce the dimentionality of X<sub>n
 3. Find the eigen values and eigen vectors of the covariance matrix S<sub>dxd</sub>
 4. Select the principal component.
 
+> **Note**: PCA works on the mathematical concept of **maximizing the variance of the projected points**.
+
 ## Interpretation Of Eigen Values And Eigen Vectors
 - Eigen vectors tell the direction of the variance. V<sub>1</sub> is the direction where the variance is largest, V<sub>2</sub> the second largest, so on.
 - Eigen values tell how is the data spread, is it spread only in one axis or amongst many axes.
