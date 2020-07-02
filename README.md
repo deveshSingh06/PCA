@@ -1,10 +1,8 @@
-# Principal-Component-Analysis-PCA-on-MNIST-dataset
-Using PCA, the dimensions of the MNIST dataset have been reduced. The MNIST dataset has been visualized in 2-d by reducing its dimensionality from 784-d to 2-d.
-# About MNIST
-MNIST dataset consist of 60k handwritten images of numbers from 0-9 and is commonly used for training various image processing systems.
-- It can be downloaded from [here](https://www.kaggle.com/c/digit-recognizer/data).
-- For more information on MNIST dataset, click [here](https://en.wikipedia.org/wiki/MNIST_database).
-# Steps involved in PCA
+# About PCA
+- PCA is a machine learning algorithm for dimensionality reduction.
+- It is used for vizualization purposes.
+- A higher dimensional data could be vizualized in lower dimenions such as 2-d or 3-d.
+## Steps involved in PCA
 Let X<sub>nxd</sub> be the given matrix. To reduce the dimentionality of X<sub>nxd</sub>, we apply the following steps:
 1. Column standardise X<sub>nxd</sub>.
 2. Find the covariance matrix of X<sub>nxd</sub> as:<b>S<sub>dxd</sub> = X<sup>T</sup>X</b>
