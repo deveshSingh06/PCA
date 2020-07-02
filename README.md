@@ -1,4 +1,5 @@
 # About PCA
+- PCA stands for Principal Component Analysis
 - PCA is a machine learning algorithm for dimensionality reduction.
 - It is used for vizualization purposes.
 - A higher dimensional data could be vizualized in lower dimenions such as 2-d or 3-d.
